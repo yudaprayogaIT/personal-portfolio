@@ -1,0 +1,125 @@
+/* body {
+  height: 3000vh;
+} */
+
+.navbar,
+.footer {
+  background-color: #0096c7;
+}
+
+.hero-section,
+.about,
+.exercises {
+  height: 100vh;
+}
+
+.height {
+  height: 15rem;
+}
+
+#home,
+#exercises {
+  background-color: #caf0f8;
+}
+
+.skill-badge {
+  background-color: #e0e0e0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin: 5px;
+  display: inline-block;
+}
+
+.sidebar .sosmed-icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: top;
+  text-decoration: none;
+  margin: 3px 0;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+.sidebar .sosmed-icon:hover {
+  width: 200px;
+}
+.sidebar .sosmed-icon .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  color: #000;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  /* line-height: 20px; */
+  transition: all 0.3s ease-out;
+}
+.sidebar .sosmed-icon:nth-child(1):hover .icon {
+  background: #4267b2;
+}
+.sidebar .sosmed-icon:nth-child(2):hover .icon {
+  background: #0077b5;
+}
+.sidebar .sosmed-icon:nth-child(3):hover .icon {
+  background: #e1306c;
+}
+.sidebar .sosmed-icon:nth-child(4):hover .icon {
+  background: #333;
+}
+.sidebar .sosmed-icon:nth-child(5):hover .icon {
+  background: #128c7e;
+}
+.sidebar .sosmed-icon .icon i {
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.sidebar .sosmed-icon:hover .icon i {
+  color: #fff;
+}
+.sidebar .sosmed-icon span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.sidebar .sosmed-icon:nth-child(1) span {
+  color: #4267b2;
+}
+.sidebar .sosmed-icon:nth-child(2) span {
+  color: #1da1f2;
+}
+.sidebar .sosmed-icon:nth-child(3) span {
+  color: #e1306c;
+}
+.sidebar .sosmed-icon:nth-child(4) span {
+  color: #333;
+}
+.sidebar .sosmed-icon:nth-child(5) span {
+  color: #128c7e;
+}
+
+#sosmed {
+  margin-top: -5rem;
+  background-color: #fff;
+}
+
+@media (max-width: 765px) {
+  .hero-section {
+    height: 80vh;
+  }
+
+  #exercises {
+    margin-top: -0.1rem;
+  }
+
+  #sosmed {
+    margin-top: -2rem;
+  }
+}

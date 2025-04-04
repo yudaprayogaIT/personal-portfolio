@@ -1,0 +1,121 @@
+*,
+html,
+body {
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans 3", sans-serif;
+}
+
+:root {
+  --color-bg-primary: #e8e8e456;
+  --color-bg-secondary: #f8edeb77;
+  --color-nav: #fdfdfd;
+  --color-global: #ec5b53;
+  --color-font-nav: #333;
+  --color-font-primary: #002d5b;
+}
+
+.upper {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.global-container {
+  border: 2px solid aqua;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-container {
+  border: 2px solid blueviolet;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13%;
+  background-color: var(--color-nav);
+}
+
+.nav-profile {
+  border: 2px solid cadetblue;
+  display: flex;
+  margin: 0 3%;
+  height: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-img-container {
+  border: 2px solid chartreuse;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.nav-name {
+  border: 1px solid greenyellow;
+  margin: 0.8rem;
+  /* font-size: 1.2rem; */
+  font-size: 115%;
+  color: var(--color-font-primary);
+}
+
+.title-container {
+  border: 2px solid darkgoldenrod;
+  height: 100%;
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-font-primary);
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 87%;
+  background-color: var(--color-bg-secondary);
+  border: 2px solid red;
+}
+
+.main-home {
+  text-align: center;
+  border: 2px solid yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.social-media {
+  background-color: var(--color-nav);
+  height: 40%;
+  width: 4%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid greenyellow;
+  -webkit-box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.28);
+  box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.28);
+  border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.medsos a:hover {
+  background-color: #333;
+}
